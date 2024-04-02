@@ -47,5 +47,3 @@ This project involved creating an order management database for a fictional comp
 - **Northwind Database**: Used for demonstrating database design/querying, extracting data from one or more SQL database tables, and populating the order_management database.
 - **[Sales Data CSV](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)**: Used for retrieving a local data file, converting its original format, and populating the order_management database.
 - **[Fake Store API](https://fakestoreapi.com/)**: Used for retrieving additional product information through an API call and populating the order_management database.
-
-You can access the completed Data Project code and related files in this repository.
