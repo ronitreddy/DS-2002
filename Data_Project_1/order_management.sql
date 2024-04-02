@@ -43,5 +43,5 @@ CREATE TABLE Suppliers (
     LastName VARCHAR(255),
     Phone VARCHAR(20),
     Address VARCHAR(255),
-    Company VARCHAR(255),
+    Company VARCHAR(255)
 );
