@@ -34,7 +34,7 @@ This project involved creating an order management database for a fictional comp
    - Successfully created an order management database with accurate and consistent data from multiple sources.
    - Demonstrated the ability to extract, transform, and load various data formats and sources in a database project.
 
-## Files Provided and Resources Used
+## Provided Files and Used Resources
 
 ### Provided Files
 - **Data_Project_1.ipynb**: Jupyter Notebook containing the completed Data Project code.
@@ -43,7 +43,7 @@ This project involved creating an order management database for a fictional comp
 - **northwind-data.sql**: SQL file containing the Northwind database data.
 - **sales_data_sample.csv**: Sample CSV file containing sales data.
 
-### Resources Used
+### Used Resources
 - **[Northwind Database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)**: Used for demonstrating database design/querying to extract data from one or more SQL database tables, and populating the order_management database.
 - **[Sales Data CSV](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data)**: Used for retrieving a local data file, converting its original format, and populating the order_management database.
 - **[Fake Store API](https://fakestoreapi.com/)**: Used for retrieving additional product information through an API call, and populating the order_management database.
