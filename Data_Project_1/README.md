@@ -41,7 +41,7 @@ This project involved creating an order management database for a fictional comp
 - **northwind.sql**: SQL file containing the `northwind` database schema.
 - **northwind-data.sql**: SQL file containing the `northwind` database data.
 - **sales_data_sample.csv**: CSV file containing sample sales data.
-- **Data_Project_1.ipynb**: Jupyter Notebook containing the completed ETL work code for this data project. 
+- **Data_Project_1.ipynb**: Jupyter Notebook containing the completed Python code corresponding to the ETL work done in this data project. 
 
 ### Used Resources
 - **[Northwind Database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)**: Used for demonstrating database design/querying to extract data from one or more SQL database tables, and populating the order_management database.
