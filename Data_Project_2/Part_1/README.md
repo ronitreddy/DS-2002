@@ -19,7 +19,7 @@ This project involves the creation and deployment a robust data ingestion system
 
 ### Analysis and Reporting
 - **Data Analysis**: Examined the relationships between the relevant data fields (`factor`, `pi`, and `time`) and how these relationships change over the course of an hour, and documented findings.
-- **Documentation and Results Presentation**: Compiled the analysis results and methodological insights regarding observed patterns within the data fields and potential catalysts behind these changes into a comprehensive Markdown document (`Data_Fields_Analysis.md`).
+- **Documentation and Results Presentation**: Compiled the analysis results and insights regarding observed patterns within the data fields and potential explanations for these changes into a comprehensive Markdown document (`Data_Fields_Analysis.md`).
 
 ### Conclusion and Submission
 - **Project Wrap-Up**: Reviewed the entire process to ensure that all benchmarks were met, including the precise execution of data retrieval and consistent database updates.
