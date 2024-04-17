@@ -14,4 +14,4 @@ Data Project 2 builds upon the achievements of Data Project 1 to further demonst
 
 ### Part 2: Discord Bot
 - This section involves the integration of data handling capabilities within a Discord bot.
-- [README for Part 1](./Part_1/README.md)
+- [README for Part 2](./Part_1/README.md)
