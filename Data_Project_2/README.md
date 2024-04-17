@@ -11,4 +11,4 @@ Data Project 2 builds upon the achievements of Data Project 1 to further demonst
 
 ### Part 2: Discord Bot
 - This part of the project involves creating a Discord bot that utilizes data science techniques to interact with external data sources (database systems, APIs, etc.).
-- [README for Part 2](./Part_1/README.md)
+- [README for Part 2](N/A)
