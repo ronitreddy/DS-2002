@@ -6,7 +6,7 @@ Data Project 2 builds upon the achievements of Data Project 1 to further demonst
 ## Project Components
 
 ### Part 1: Data Ingestion & Analysis
-- This part of the project setting up a system to ingest data from an API every minute, analyze it, and store it in a database, focusing on identifying patterns and changes over time.
+- This part of the project involves setting up a system to ingest data from an API every minute, analyze it, and store it in a database, focusing on identifying patterns and changes over time.
 - [README for Part 1](./Part_1/README.md)
 
 ### Part 2: Discord Bot
