@@ -18,12 +18,12 @@ This project involves the creation and deployment a robust data ingestion system
 - **Performance Optimization**: Monitored the performance of the database operations and optimized queries to handle the influx of data every minute efficiently.
 
 ### Analysis and Reporting
-- **Data Analysis**: Utilized SQL and Python data analysis libraries to examine the relationships between the data fields (`factor`, `pi`, and `time`). Analyzed how these relationships change over the course of an hour and documented findings.
-- **Documentation and Results Presentation**: Compiled the analysis results and methodological insights into a comprehensive Markdown document (`Data_Fields_Analysis.md`). Included visualizations and code snippets to enhance understanding.
+- **Data Analysis**: Examined the relationships between the relevant data fields (`factor`, `pi`, and `time`) and how these relationships change over the course of an hour, and documented findings.
+- **Documentation and Results Presentation**: Compiled the analysis results and methodological insights regarding observed patterns within the data fields and potential catalysts behind these changes into a comprehensive Markdown document (`Data_Fields_Analysis.md`).
 
 ### Conclusion and Submission
 - **Project Wrap-Up**: Reviewed the entire process to ensure that all benchmarks were met, including the precise execution of data retrieval and consistent database updates.
-- **Repository Management**: All code, documentation, and additional resources (such as `Database_Table_Contents.csv` and `Database_Table_Screenshot.png`) were organized and uploaded to a standalone GitHub repository for evaluation and public access.
+- **Repository Management**: All code, documentation, and additional resources (such as `Database_Table_Contents.csv` and `Database_Table_Screenshot.png`) were organized and uploaded for evaluation.
 
 ## Provided Files and Used Resources
 
