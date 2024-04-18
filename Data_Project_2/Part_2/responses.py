@@ -12,6 +12,9 @@ load_dotenv()
 api_key = os.getenv('GOOGLE_API_KEY')
 configure(api_key=api_key)
 
+# Initialize a dictionary to track checkout status of each user
+user_checkout_status = {}
+
 # Function to fetch all available products from Fake Store API
 def fetch_product_data():
     # Makes an API request to retrieve products
@@ -47,31 +50,34 @@ def handle_unknown_command(user_input):
     return response.text if response.text else "I'm a bit puzzled by that. Could you rephrase that or ask me something else?"
 
 # Process user input and manage the shopping cart
-def get_response(user_input: str, cart: dict) -> str:
+def get_response(user_id: str, user_input: str, cart: dict) -> str:
     # Convert input to lowercase to standardize processing
     lowered = user_input.lower()
+    # Ensure user checkout status is tracked
+    if user_id not in user_checkout_status:
+        user_checkout_status[user_id] = False
     # Greet the user in response to a greeting
     greetings = ['hello', 'hi', 'hey', 'greetings', 'good morning', 'good afternoon', 'good evening']
     if any(greet in lowered for greet in greetings):
         greeting_responses = [
-            "Hello! I'm thrilled to assist you today. What can I help you with?",
-            "Hi there! How can I make your shopping experience fantastic today?",
-            "Greetings! Looking for something special today?",
-            "Good day! What can I do for you on this fine day?",
-            "Hey! Ready to find what you need? Just let me know how I can help!",
+            "Hello! I'm CashierBot, and I'm thrilled to assist you today. What can I help you with?",
+            "Hi there! I'm CashierBot. How can I make your shopping experience fantastic today?",
+            "Greetings from CashierBot! Looking for something special today?",
+            "Good day! CashierBot here. What can I do for you on this fine day?",
+            "Hey! It’s CashierBot. Ready to find what you need? Just let me know how I can help!",
         ]
         return choice(greeting_responses)
 
     # Provide help instructions
     elif 'help' in lowered:
-        return ("Here's what you can ask me to do:\n"
-                "- `!products`: Display all available products\n"
-                "- `!add [Product ID]`: Add a product to your cart\n"
-                "- `!remove [Product ID]`: Remove a product from your cart\n"
-                "- `!cart`: View the items in your cart\n"
-                "- `!checkout`: Calculate your total cost including tax\n"
-                "- `!joke`: Hear a funny joke\n"
-                "- `? [Your message]`: Start a private chat with me")
+        return ("No worries, I'm here to help! Here are the commands you can use:\n"
+                "- `!products`: Browse our full range of available products.\n"
+                "- `!add [Product ID]`: Place a product into your shopping cart using its ID.\n"
+                "- `!remove [Product ID]`: Remove an item from your cart by specifying its ID.\n"
+                "- `!cart`: Check the contents of your shopping cart.\n"
+                "- `!checkout`: Proceed to calculate the total cost of your cart, including tax.\n"
+                "- `!joke`: Ask me to tell you a funny joke.\n"
+                "- `? [Your message]`: Initiate a private chat with me for personal assistance.")
 
     # List all products
     elif 'products' in lowered:
@@ -126,7 +132,11 @@ def get_response(user_input: str, cart: dict) -> str:
         else:
             products = fetch_product_data()
             # Return the contents of the cart
-            cart_contents = '\n'.join([f'Name: {next(item["title"] for item in products if item["id"] == id)}, Quantity: {quantity}' for id, quantity in cart.items()])
+            cart_contents = '\n'.join([
+                f'ID: {id}, Name: {item["title"]}, Price: ${item["price"]}, Quantity: {quantity}'
+                for id, quantity in cart.items() if any(p["id"] == id for p in products)
+                for item in products if item["id"] == id
+            ])
             return f"Here\'s what\'s in your cart:\n{cart_contents}\nIs there anything else you'd like to do?"
 
     # Checkout and calculate total cost including tax
@@ -138,10 +148,13 @@ def get_response(user_input: str, cart: dict) -> str:
             subtotal = sum(next(item["price"] for item in products if item["id"] == id) * quantity for id, quantity in cart.items())
             tax = subtotal * 0.06  # Calculate retail tax at 6%
             total = subtotal + tax
+            user_checkout_status[user_id] = True  # Set checkout status to True indicating the user is in the checkout phase
             return f"Your subtotal is ${subtotal:.2f}. The tax on the items in your cart is ${tax:.2f}, making your total ${total:.2f}.\nIf you are ready to check out, please provide a form of payment."
     
-    # Check if the user mentions a payment method for checkout purposes
-    elif any(payment_method in lowered for payment_method in ['cash', 'money', 'dollar', 'credit card', 'debit card', '💳', '💵', '💰', '💸', '💰']):
+    # Handle payment if user is in checkout phase
+    elif user_checkout_status[user_id] and any(payment_method in lowered for payment_method in ['cash', 'money', 'dollar', 'credit card', 'debit card', '💳', '💵', '💰', '💸']):
+        user_checkout_status[user_id] = False  # Reset checkout status
+        cart.clear()  # Clear the user's cart
         return "You are all good to go! Thank you for shopping at the DS 2002 Store, and have a great day!"
 
     # Fetch a joke

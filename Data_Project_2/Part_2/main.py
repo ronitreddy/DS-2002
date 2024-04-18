@@ -32,8 +32,8 @@ async def send_message(message: Message,user_message: str) -> None:
     try:
         # Retrieve the user's cart
         user_cart = user_carts[message.author.id]
-        # Generate response based on the user message and cart
-        response = get_response(user_message, user_cart)
+        # Generate response based on the user message, user cart, and user ID
+        response = get_response(message.author.id, user_message, user_cart)
         # Send response privately or to the channel based on is_private flag
         await message.author.send(response) if is_private else await message.channel.send(response)
     except Exception as e:
