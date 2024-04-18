@@ -1,0 +1,61 @@
+id,channel_id,call,author.id,author.username,author.avatar,author.discriminator,author.public_flags,author.flags,author.banner,author.accent_color,author.global_name,author.avatar_decoration_data,author.banner_color,author.clan,content,timestamp,edited_timestamp,tts,mention_everyone,mentions,mention_channels,attachments,embeds,reactions,nonce,pinned,webhook_id,type,activity,application,application_id,message_reference,flags,referenced_message,interaction,thread,components,sticker_items,stickers,position,role_subscription_data,resolved,userName,date
+1230373831785451560,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,Hey there!,2024-04-18T04:26:20.738000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:26:20.738Z
+1230373832632832040,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,Good day! CashierBot here. What can I do for you on this fine day?,2024-04-18T04:26:20.940000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:26:20.940Z
+1230373849934204959,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,How are you doing?,2024-04-18T04:26:25.065000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:26:25.065Z
+1230373854644539472,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"I'm doing great, thank you! How can I help you today?",2024-04-18T04:26:26.188000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:26:26.188Z
+1230373884986003457,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,Has it been busy for you guys today?,2024-04-18T04:26:33.422000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:26:33.422Z
+1230373890275147868,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"Yes, it's been a busy day, but we are doing our best to serve everyone as quickly as we can. Is there anything I can help you with today?",2024-04-18T04:26:34.683000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:26:34.683Z
+1230373916652863498,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,help,2024-04-18T04:26:40.972000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:26:40.972Z
+1230373917374550132,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"No worries, I'm here to help! Here are the commands you can use:
+- `!products`: Browse our full range of available products.
+- `!add [Product ID]`: Place a product into your shopping cart using its ID.
+- `!remove [Product ID]`: Remove an item from your cart by specifying its ID.
+- `!cart`: Check the contents of your shopping cart.
+- `!checkout`: Proceed to calculate the total cost of your cart, including tax.
+- `!joke`: Ask me to tell you a funny joke.
+- `? [Your message]`: Initiate a private chat with me for personal assistance.",2024-04-18T04:26:41.144000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:26:41.144Z
+1230373986832220190,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!products,2024-04-18T04:26:57.704000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:26:57.704Z
+1230373989919100970,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"Here's a list of all our fabulous products currently available. You can add items to your cart using their ID numbers:
+ID: 1, Name: Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops, Price: $109.95
+ID: 2, Name: Mens Casual Premium Slim Fit T-Shirts , Price: $22.3
+ID: 3, Name: Mens Cotton Jacket, Price: $55.99
+ID: 4, Name: Mens Casual Slim Fit, Price: $15.99
+ID: 5, Name: John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet, Price: $695
+ID: 6, Name: Solid Gold Petite Micropave , Price: $168
+ID: 7, Name: White Gold Plated Princess, Price: $9.99
+ID: 8, Name: Pierced Owl Rose Gold Plated Stainless Steel Double, Price: $10.99
+ID: 9, Name: WD 2TB Elements Portable External Hard Drive - USB 3.0 , Price: $64
+ID: 10, Name: SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s, Price: $109
+ID: 11, Name: Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5, Price: $109
+ID: 12, Name: WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive, Price: $114
+ID: 13, Name: Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Price: $599
+ID: 14, Name: Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED , Price: $999.99
+ID: 15, Name: BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats, Price: $56.99
+ID: 16, Name: Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket, Price: $29.95
+ID: 17, Name: Rain Jacket Women Windbreaker Striped Climbing Raincoats, Price: $39.99
+ID: 18, Name: MBJ Women's Solid Short Sleeve Boat Neck V , Price: $9.85
+ID: 19, Name: Opna Women's Short Sleeve Moisture, Price: $7.95
+ID: 20, Name: DANVOUY Womens T Shirt Casual Cotton Short, Price: $12.99",2024-04-18T04:26:58.440000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:26:58.440Z
+1230374059032842332,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!add Product 13,2024-04-18T04:27:14.918000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:27:14.918Z
+1230374061918392350,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,Great choice! I've added Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin to your cart. Is there anything else I can assist you with?,2024-04-18T04:27:15.606000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:27:15.606Z
+1230374094155943986,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!add Product 20,2024-04-18T04:27:23.292000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:27:23.292Z
+1230374097171513384,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,Great choice! I've added DANVOUY Womens T Shirt Casual Cotton Short to your cart. Is there anything else I can assist you with?,2024-04-18T04:27:24.011000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:27:24.011Z
+1230374166499295262,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!cart,2024-04-18T04:27:40.540000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:27:40.540Z
+1230374169464537149,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"Here's what's in your cart:
+ID: 13, Name: Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Price: $599, Quantity: 1
+ID: 20, Name: DANVOUY Womens T Shirt Casual Cotton Short, Price: $12.99, Quantity: 1
+Is there anything else you'd like to do?",2024-04-18T04:27:41.247000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:27:41.247Z
+1230374268257439775,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!remove Product 20,2024-04-18T04:28:04.801000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:28:04.801Z
+1230374269100490753,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,Got it! The product has been removed from your cart. Is there anything else you'd like to do?,2024-04-18T04:28:05.002000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:28:05.002Z
+1230374307746545735,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!cart,2024-04-18T04:28:14.216000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:28:14.216Z
+1230374310552535170,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"Here's what's in your cart:
+ID: 13, Name: Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin, Price: $599, Quantity: 1
+Is there anything else you'd like to do?",2024-04-18T04:28:14.885000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:28:14.885Z
+1230374333428400189,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!joke,2024-04-18T04:28:20.339000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:28:20.339Z
+1230374334430711879,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,What are the strongest days of the week? Saturday and Sunday...the rest are weekdays.,2024-04-18T04:28:20.578000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:28:20.578Z
+1230374360175476847,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,!checkout,2024-04-18T04:28:26.716000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:28:26.716Z
+1230374365552578580,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"Your subtotal is $599.00. The tax on the items in your cart is $35.94, making your total $634.94.
+If you are ready to check out, please provide a form of payment.",2024-04-18T04:28:27.998000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:28:27.998Z
+1230374447991488512,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,Here's my money: 💵. Thank you!,2024-04-18T04:28:47.653000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:28:47.653Z
+1230374448826421258,1230373812135268352,,1230257418223620256,CashierBot,590731c147ee08bdcfe2252d63fae17e,1579,0,0,,,,,,,"You are all good to go! Thank you for shopping at the DS 2002 Store, and have a great day!",2024-04-18T04:28:47.852000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,CashierBot,2024-04-18T04:28:47.852Z
+1230374628434772058,1230373812135268352,,691730218607706232,ronit.reddy,,0,0,0,,,,,,,? I have one last thing I want to ask you before I go,2024-04-18T04:29:30.674000+00:00,,false,false,,,,,,,false,,0,,,,,0,,,,,,,,,,ronit.reddy,2024-04-18T04:29:30.674Z
