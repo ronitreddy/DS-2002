@@ -31,7 +31,7 @@ This project involves the creation and deployment a robust data ingestion system
 - `pi_data.sql`: SQL file used to generate the database schema.
 - `Data_Ingestion_and_Analysis.ipynb`: Jupyter Notebook containing the complete Python code used for data extraction, loading, and analysis.
 - `Database_Table_Contents.csv`: CSV file containing the data recorded in the database after the execution of the data ingestion process.
-- `Database_Table_Screenshot.png`: Screenshot verifying the consistent execution of data ingestion every minute.
+- `Database_Table_Screenshot.png`: PNG screenshot verifying the consistent execution of data ingestion every minute.
 - `Data_Fields_Analysis.md`: Markdown file containing analysis of the data fields extracted from the remote data API and the observed changes over time.
 
 ### Used Resources
