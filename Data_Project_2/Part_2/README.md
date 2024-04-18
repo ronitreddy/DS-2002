@@ -43,4 +43,4 @@ This project involves the development and deployment of an interactive Discord b
 - **[Google Gemini API](https://ai.google.dev/gemini-api/docs)**: Leveraged for advanced AI and natural language processing capabilities to dynamically generate text responses.
 
 ## Invite Link
-Experience interactive shopping with CashierBot on the Discord server: [Shop at the DS 2002 Store Server](https://discord.gg/6cR9HsYpjP).
+Experience interactive shopping with CashierBot on the Discord server: [Shop at the DS 2002 Store Server](https://discord.gg/TtbBAJuv66).
