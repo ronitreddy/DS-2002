@@ -14,18 +14,26 @@ intents: Intents = Intents.default()
 intents.message_content = True  # Enable reading message content
 client: Client = Client(intents=intents)
 
+# Initialize a dictionary to maintain shopping cart for each user
+user_carts = {}
+
 # Define a function to process and send messages
 async def send_message(message: Message,user_message: str) -> None:
     # Early exit if the user message is empty
     if not user_message:
         print('(Message was empty because intents were not enabled...prob)')
         return
+    # Check if a cart exists for the user, if not, create an empty one
+    if message.author.id not in user_carts:
+        user_carts[message.author.id] = {}
     # Determine if the message should be sent privately
-    if is_private := user_message[0] =='?':
-        user_message = user_message[1:] # Remove the private command indicator
+    if is_private := user_message[0] == '?':
+        user_message = user_message[1:]  # Remove the private command indicator
     try:
-        # Generate response based on the user message
-        response: str = get_response(user_message)
+        # Retrieve the user's cart
+        user_cart = user_carts[message.author.id]
+        # Generate response based on the user message and cart
+        response = get_response(user_message, user_cart)
         # Send response privately or to the channel based on is_private flag
         await message.author.send(response) if is_private else await message.channel.send(response)
     except Exception as e:
