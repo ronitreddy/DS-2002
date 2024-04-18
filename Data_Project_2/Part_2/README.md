@@ -28,12 +28,12 @@ This project involves the development and deployment of an interactive Discord b
 ## Provided Files and Used Resources
 
 ### Provided Files
-- `main.py`: Python script containing the bot's main execution logic and server interaction routines.
+- `main.py`: Python file containing the bot's main execution logic and server interaction routines.
 - `responses.py`: Python file defining all response logic for handling user commands and integrating with external APIs.
-- `Direct_Message_Contents.csv`: CSV file documenting the contents of direct messages facilitated by the bot.
-- `Direct_Message_Screenshot.png`: PNG screenshot showing the bot’s direct message functionality in action.
-- `Discord_Server_Contents.csv`: CSV file containing a snapshot of all activities and interactions within the Discord server.
-- `Discord_Server_Screenshot.png`: PNG screenshot capturing active server interactions and bot responses.
+- `Direct_Message_Contents.csv`: CSV file containing the data recorded from the direct messages with the bot after its deployment.
+- `Direct_Message_Screenshot.png`: PNG screenshot verifying the bot's functionality in direct messaging.
+- `Discord_Server_Contents.csv`: CSV file containing the data recorded from interactions with the bot in the Discord server after its deployment.
+- `Discord_Server_Screenshot.png`: PNG screenshot verifying the bot's active participation and responses on the server.
 - `Discord_Bot_Documentation.md`: Markdown document detailing the bot's features, usage, and technical configuration.
 
 ### Used Resources
