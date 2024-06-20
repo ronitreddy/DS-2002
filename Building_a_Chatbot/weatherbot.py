@@ -30,7 +30,7 @@ trainer.train(conversation)
 
 # Function to get weather information using OpenWeatherMap API
 def get_weather(location):
-    api_key = "c2bbb034e62c931609aaee8b5f042c86"
+    api_key = ""
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     try:
         city_name, state_code = location.split(", ")
